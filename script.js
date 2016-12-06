@@ -8,9 +8,8 @@ $.ajax({
   }
 })
 
-var = []
-arr.push (1)
-
+var arr = []
 
 data.object.forEach = (function(object){
+  arr.push(object.firstname)
 console.log (object.firstname) })
