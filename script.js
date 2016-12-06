@@ -1,7 +1,8 @@
 $.ajax({
   method: "GET",
   url: "https://www.govtrack.us/api/v2/person",
-  success: function(data) {    
+  success: function(data) {  
+    
     data.objects.forEach(function(object) {
       console.log(object)
     })
@@ -10,6 +11,6 @@ $.ajax({
 
 var arr = []
 
-data.object.forEach = (function(object){
+data.object.forEach = (function(data){
   arr.push(object.firstname)
 console.log (object.firstname) })
