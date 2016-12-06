@@ -8,7 +8,8 @@ $.ajax({
   }
 })
 
-var arrayname = $(.first
+var arrayname = $(".firstname")
+console.log 
 
 
 
