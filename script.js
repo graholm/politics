@@ -8,5 +8,5 @@ $.ajax({
   }
 })
 
-data.object 
-[]
+data.object.forEach = (function(object)){
+console.log (object.name) }
