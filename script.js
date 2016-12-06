@@ -8,4 +8,5 @@ $.ajax({
   }
 })
 
-obje.forEach
+data.object 
+[]
